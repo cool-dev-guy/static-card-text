@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Your Page Title">
+    <meta property="og:description" content="Initial meta description">
+    <meta property="og:image" content="URL_of_your_image">
+    
+    <!-- Add other necessary Open Graph or Twitter Card tags here -->
+
+    <title>Title</title>
+</head>
+<body>
+    <!-- Your webpage content goes here -->
+
+    <script>
+        // Use JavaScript to dynamically change the meta description
+        var newDescription = "New meta description for the link preview.";
+        document.querySelector('meta[property="og:description"]').setAttribute('content', newDescription);
+    </script>
+</body>
+</html>
